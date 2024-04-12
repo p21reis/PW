@@ -1,0 +1,32 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: orange;
+    background-image: url("academia\ fundo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+  }
+
+.guardado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TCF-IMG{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.filter{
+    /*background: rgba(240, 227, 227, 0.5);*/
+    backdrop-filter: blur(15px);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.table>:not(caption)>*>*{
+    color: white;
+}
